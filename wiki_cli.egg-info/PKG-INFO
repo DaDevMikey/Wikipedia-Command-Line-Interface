@@ -1,0 +1,11 @@
+Metadata-Version: 2.2
+Name: wiki-cli
+Version: 1.0.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: aiohttp>=3.9.1
+Requires-Dist: pillow>=10.1.0
+Requires-Dist: rich>=13.7.0
+Requires-Dist: prompt_toolkit>=3.0.43
+Requires-Dist: click>=8.1.7
+Requires-Dist: python-dotenv>=1.0.0
+Dynamic: requires-dist

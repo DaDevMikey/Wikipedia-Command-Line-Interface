@@ -1,0 +1,2 @@
+[console_scripts]
+wiki = wiki_cli.cli:main
