@@ -15,7 +15,7 @@ A command-line interface for Wikipedia that allows you to search, read articles,
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/DaDevMikey/Wikipedia-Command-Line-Interface.git
 cd wiki-cli
 ```
 
