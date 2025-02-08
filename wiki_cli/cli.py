@@ -4,10 +4,10 @@ from prompt_toolkit import PromptSession
 from prompt_toolkit.history import FileHistory
 from prompt_toolkit.completion import WordCompleter
 import os
-from .config import Config
-from .api import WikiAPI
-from .formatters import OutputFormatter, console
-from .image_converter import ASCIIConverter
+from wiki_cli.config import Config
+from wiki_cli.api import WikiAPI
+from wiki_cli.formatters import OutputFormatter, console
+from wiki_cli.image_converter import ASCIIConverter
 from rich.panel import Panel
 
 # Ensure cache directory exists
