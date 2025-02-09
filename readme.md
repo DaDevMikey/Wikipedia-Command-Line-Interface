@@ -22,7 +22,7 @@ A command-line interface for Wikipedia that allows you to search, read articles,
 
 **Known Issue (Windows Installer):**
 
-The installer may incorrectly report that Python is not installed even if it is present on your system. This is a known issue that we are actively working to resolve in future releases.  In the meantime, if you encounter this issue, please ensure you have a compatible version of Python installed (3.7+) and consider using the manual installation method described below.
+The installer may incorrectly report that Python is not installed even if it is present on your system. This is a known issue that we are actively working to resolve in future releases.  In the meantime, if you encounter this issue, please ensure you have a compatible version of Python installed (3.7+) and consider using the manual installation method described below. If the error message (python is not installed) does appear on your machine, press no to continue with the instalation anyways.
 
 1. Clone the repository:
 ```bash
