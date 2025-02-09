@@ -1,0 +1,177 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wiki-CLI - Terminal Wikipedia Browser</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="backdrop-blur"></div>
+  
+  <header>
+    <nav>
+      <div class="logo">
+        <span class="material-icons">terminal</span>
+        <h1>Wiki-CLI</h1>
+      </div>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#installation">Installation</a>
+        <a href="#usage">Usage</a>
+        <a href="#requirements">Requirements</a>
+        <a href="https://github.com/DaDevMikey/Wikipedia-Command-Line-Interface" target="_blank" class="github-link">
+          <svg height="32" viewBox="0 0 16 16" width="32">
+            <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+          </svg>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="terminal-window">
+        <div class="terminal-header">
+          <div class="terminal-buttons">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="terminal-title">wiki-cli</div>
+        </div>
+        <div class="terminal-content">
+          <div class="line">
+            <span class="prompt">$</span> wiki
+          </div>
+          <div class="line">
+            Welcome to Wiki-CLI!
+          </div>
+          <div class="line">
+            <span class="prompt">wiki></span> search Python programming
+          </div>
+          <div class="line typing"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features floating-section">
+      <h2>Features</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <span class="material-icons">search</span>
+          <h3>Search Articles</h3>
+          <p>Search Wikipedia articles directly from your terminal</p>
+        </div>
+        <div class="feature-card">
+          <span class="material-icons">article</span>
+          <h3>Read Articles</h3>
+          <p>Read full articles without leaving your command line</p>
+        </div>
+        <div class="feature-card">
+          <span class="material-icons">image</span>
+          <h3>ASCII Art Images</h3>
+          <p>View article images converted to ASCII art</p>
+        </div>
+        <div class="feature-card">
+          <span class="material-icons">link</span>
+          <h3>External Links</h3>
+          <p>Browse and access external references</p>
+        </div>
+        <div class="feature-card">
+          <span class="material-icons">history</span>
+          <h3>Command History</h3>
+          <p>Access your previous commands easily</p>
+        </div>
+        <div class="feature-card">
+          <span class="material-icons">tab</span>
+          <h3>Tab Completion</h3>
+          <p>Smart command completion with Tab key</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="installation" class="installation floating-section">
+      <h2>Installation</h2>
+      <div class="installation-methods">
+        <div class="method">
+          <h3>Windows Installer</h3>
+          <ol>
+            <li>Download the installer from the latest release</li>
+            <li>Run the installer and follow the prompts</li>
+          </ol>
+          <a href="https://github.com/DaDevMikey/Wikipedia-Command-Line-Interface/releases/latest" class="download-button">
+            <span class="material-icons">download</span>
+            Download Latest Release
+          </a>
+        </div>
+        <div class="method">
+          <h3>Manual Installation</h3>
+          <div class="code-block">
+            <pre><code>git clone https://github.com/DaDevMikey/Wikipedia-Command-Line-Interface.git
+cd wiki-cli
+
+# Create virtual environment
+python -m venv .venv
+
+# Activate virtual environment
+# Windows:
+.venv\Scripts\activate
+# Linux/macOS:
+source .venv/bin/activate
+
+# Install package
+pip install .</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="usage" class="usage floating-section">
+      <h2>Usage</h2>
+      <div class="commands">
+        <div class="command-list">
+          <h3>Available Commands</h3>
+          <ul>
+            <li><code>search &lt;query&gt;</code> - Search Wikipedia articles</li>
+            <li><code>view &lt;title&gt;</code> - View a specific article</li>
+            <li><code>&lt;number&gt;</code> - View article from search results</li>
+            <li><code>images</code> - List images in current article</li>
+            <li><code>image &lt;number&gt;</code> - View ASCII art of an image</li>
+            <li><code>links</code> - Show external links for current article</li>
+            <li><code>clear</code> - Clear the screen</li>
+            <li><code>help</code> - Show help message</li>
+            <li><code>exit</code> - Exit the application</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="requirements" class="requirements floating-section">
+      <h2>Requirements</h2>
+      <ul>
+        <li>Python 3.7+</li>
+        <li>Required packages (automatically installed):
+          <ul>
+            <li>requests</li>
+            <li>aiohttp</li>
+            <li>pillow</li>
+            <li>rich</li>
+            <li>prompt_toolkit</li>
+            <li>click</li>
+            <li>python-dotenv</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Wiki-CLI is licensed under the MIT License</p>
+    <p>Created by DaDevMikey</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
