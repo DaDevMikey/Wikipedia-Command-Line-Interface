@@ -26,7 +26,7 @@ The installer may incorrectly report that Python is not installed even if it is 
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/DaDevMikey/Wikipedia-Command-Line-Interface.git
 cd wiki-cli
 ```
 
