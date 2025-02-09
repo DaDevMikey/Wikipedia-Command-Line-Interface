@@ -13,6 +13,17 @@ A command-line interface for Wikipedia that allows you to search, read articles,
 
 ## Installation
 
+**As of February 9, 2025,** you can install Wiki-CLI on Windows using the attached installer available in the [latest release](https://github.com/DaDevMikey/Wikipedia-Command-Line-Interface/releases/latest).  We are actively working on improving the installation experience.
+
+**Windows Installation (using the installer):**
+
+1. Download the installer from the [latest release](https://github.com/DaDevMikey/Wikipedia-Command-Line-Interface/releases/latest) page.
+2. Run the installer.
+
+**Known Issue (Windows Installer):**
+
+The installer may incorrectly report that Python is not installed even if it is present on your system. This is a known issue that we are actively working to resolve in future releases.  In the meantime, if you encounter this issue, please ensure you have a compatible version of Python installed (3.7+) and consider using the manual installation method described below.
+
 1. Clone the repository:
 ```bash
 git clone <repository-url>
