@@ -354,6 +354,44 @@ main {
   transform: translateX(100%);
 }
 
+.warning-box {
+  background: rgba(207, 102, 121, 0.1);
+  border: 1px solid var(--error);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  margin: 1rem 0;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.warning-box .material-icons {
+  color: var(--error);
+  font-size: 24px;
+}
+
+.warning-content {
+  flex: 1;
+}
+
+.warning-content h4 {
+  color: var(--error);
+  margin-bottom: 0.5rem;
+}
+
+.warning-content p {
+  margin: 0.5rem 0;
+}
+
+.warning-content ul {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.warning-content li {
+  margin: 0.25rem 0;
+}
+
 footer {
   text-align: center;
   padding: 2rem;
