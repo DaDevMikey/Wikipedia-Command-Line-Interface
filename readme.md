@@ -1,6 +1,7 @@
 # Wiki-CLI
 
 A command-line interface for Wikipedia that allows you to search, read articles, and view ASCII art versions of images directly in your terminal.
+[![Github All Releases](https://img.shields.io/github/downloads/DaDevMikey/Wikipedia-Command-Line-Interface/total.svg)]()
 
 ## Features
 
