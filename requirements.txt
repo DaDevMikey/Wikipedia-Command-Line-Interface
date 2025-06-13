@@ -35,7 +35,7 @@ pyviz_comms==3.0.4
 PyYAML==6.0.2
 requests==2.32.3
 rich==13.9.4
-setuptools==75.8.0
+setuptools==78.1.1
 six==1.17.0
 tornado==6.4.2
 tqdm==4.67.1
