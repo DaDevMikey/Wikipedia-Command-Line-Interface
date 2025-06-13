@@ -33,11 +33,11 @@ python-dotenv==1.0.1
 pytz==2025.1
 pyviz_comms==3.0.4
 PyYAML==6.0.2
-requests==2.32.3
+requests==2.32.4
 rich==13.9.4
 setuptools==78.1.1
 six==1.17.0
-tornado==6.4.2
+tornado==6.5
 tqdm==4.67.1
 typing_extensions==4.12.2
 tzdata==2025.1
